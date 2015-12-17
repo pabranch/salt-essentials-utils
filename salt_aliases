@@ -1,0 +1,9 @@
+alias slt='sudo salt'
+alias sltcall='sudo salt-call'
+alias sltkey='sudo salt-key'
+alias sltrun='sudo salt-run'
+
+function sltsys() {
+  sltcall sys.${@}
+}
+
